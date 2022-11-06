@@ -3,66 +3,67 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/output.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Raymond Konarski - CSCE190 Class Website</title>
 </head>
 
-<body class="bg-slate-200 mx-10 my-5">
+<body class="bg-gray-200 mx-10 my-5">
     <h1 class="text-5xl font-semibold mt-10 mb-5 font-serif text-center">Raymond Konarski's CSCE 190 Site</h1>
-    <div class="container flex justify-center items-center h-fit text-center ">
-        <section class="assignment m-5">
+    <div class="p-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 ">
+
+        <section class="rounded overflow-hidden shadow-sm hover:shadow-lg bg-green-200 ">
             <a href="files/problem-statement.pdf">
-                <img src="images/problem-statement.png" alt="Problem Statement" class="max-h-80 ">
+                <img src="images/problem-statement.jpg" alt="Problem Statement" class="h-48 w-full object-cover">
             </a>
-            <section class="assignment-details">
-                <h2 href="files/problem-statement.pdf" class="text-lg font-semibold">Problem Statement: Unknown</h2>
-                <p>My team finally responded to me, so I have the affinity diagram.</p>
-                <a href="files/problem-statement.pdf" class="text-link">I still don't have the
-                    problem statement pdf though...</a>
+            <section class="px-6 py-4 text-center">
+                <h2 href="files/problem-statement.pdf" class="text-xl font-semibold mb-2">Problem Statement</h2>
+                <p>Our team's problem statement.</p>
+                <a href="files/problem-statement.pdf" class="text-link underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Problem Statement</a>
             </section>
         </section>
 
-        <section class="assignment m-5 ">
+        <section class="rounded overflow-hidden shadow-sm hover:shadow-lg bg-green-200">
             <a href="files/affinity-diagram.pdf">
-                <img src="images/affinity-diagram.png" alt="Affinity Diagram" class="max-h-80">
+                <img src="images/affinity-diagram.png" alt="Affinity Diagram" class="h-48 w-full object-cover">
             </a>
-            <section class="assignment-details">
-                <h2 href="files/affinity-diagram.pdf" class="text-lg font-semibold">Affinity Diagram: Something</h2>
-                <p>My team and I brainstormed stuff.</p>
-                <a href="files/affinity-diagram.pdf" class="text-link"> Affinity Diagram</a>
+            <section class="px-6 py-4 text-center">
+                <h2 href="files/affinity-diagram.pdf" class="text-xl font-semibold mb-2">Affinity Diagram</h2>
+                <p>My team used an affinity diagram to brainstorm related topics.</p>
+                <a href="files/affinity-diagram.pdf" class="text-link underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Affinity Diagram</a>
             </section>
         </section>
 
-        <section class="assignment m-5">
-            <a href="files/personas.pdf" class="items-center justify-center">
-                <img src="images/personas.png" alt="Personas" class="max-h-80">
+        <section class="rounded overflow-hidden shadow-sm hover:shadow-lg bg-green-200">
+            <a href="files/personas.pdf">
+                <img src="images/personas.png" alt="Personas" class="h-48 w-full object-cover">
             </a>
-            <section class="assignment-details">
-                <h2 href="files/personas.pdf" class="text-lg font-semibold">Personas</h2>
-                <p>Everybody in my team individually created unique personas for people who may experience issues in our
-                    problem statement.</p>
-                <a href="files/personas.pdf" class="text-link"> Personas</a>
+            <section class="px-6 py-4 text-center">
+                <h2 href="files/personas.pdf" class="text-xl font-semibold mb-2">Personas</h2>
+                <p>The team members individually created personas for possible users of the product.</p>
+                <a href="files/personas.pdf" class="text-link underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Personas</a>
             </section>
         </section>
 
-        <section class="assignment m-5">
-            <a href="files/storyboard.pdf" class="items-center justify-center">
-                <img src="images/storyboard.png" alt="Storyboard" class="max-h-80">
+        <section class="rounded overflow-hidden shadow-sm hover:shadow-lg bg-green-200">
+            <a href="files/storyboard.pdf">
+                <img src="images/storyboard.png" alt="Storyboard" class="h-48 w-full object-cover">
             </a>
-            <section class="assignment-details">
-                <h2 href="files/storyboard.pdf" class="text-lg font-semibold">Storyboards</h2>
-                <p>My team members created storyboards to represent people who experience the problem in our problem
-                    statement.
-                    I can't get in contact with my team again for some reason, so the pdf only contains my own
-                    storyboard.
-                </p>
-                <a href="files/personas.pdf" class="text-link"> Storyboards</a>
-                <p class="mt-10">
-                    Also I cannot for the life of me figure out how to limit the width of a flexbox, so I guess I'm
-                    refactoring later.
-                </p>
+            <section class="px-6 py-4 text-center">
+                <h2 href="files/storyboard.pdf" class="text-xl font-semibold mb-2">Storyboard</h2>
+                <p>The team members individually created storyboards showing situations in which the app would be useful.</p>
+                <a href="files/storyboard.pdf" class="text-link underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Storyboard</a>
+            </section>
+        </section>
+
+        <section class="rounded overflow-hidden shadow-sm hover:shadow-lg bg-green-200">
+            <a href="files/sketches.pdf">
+                <img src="images/sketches.png" alt="Sketches" class="h-48 w-full object-cover">
+            </a>
+            <section class="px-6 py-4 text-center">
+                <h2 href="files/sketches.pdf" class="text-xl font-semibold mb-2">Sketches</h2>
+                <p>The team members individually created sketches of the apps potential screens and modes.</p>
+                <a href="files/sketches.pdf" class="text-link underline text-blue-600 hover:text-blue-800 visited:text-purple-600">Sketches</a>
             </section>
         </section>
     </div>
