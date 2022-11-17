@@ -531,10 +531,6 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.flex {
-  display: flex;
-}
-
 .grid {
   display: grid;
 }
@@ -549,10 +545,6 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .gap-5 {
@@ -583,31 +575,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-pale-gold {
-  --tw-text-opacity: 1;
-  color: rgb(194 169 112 / var(--tw-text-opacity));
-}
-
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-yellow-400 {
-  --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity));
-}
-
-.text-yellow-600 {
-  --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-.text-amber-600 {
-  --tw-text-opacity: 1;
-  color: rgb(217 119 6 / var(--tw-text-opacity));
 }
 
 .text-amber-400 {
@@ -665,6 +632,10 @@ video {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(194 169 112 / var(--tw-text-opacity));
+}
+
+.card-header:hover {
+  text-decoration-line: underline;
 }
 
 .card-img {

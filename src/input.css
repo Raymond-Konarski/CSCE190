@@ -13,7 +13,7 @@
         @apply text-center mt-auto mb-3
     }
     .card-header {
-        @apply text-center text-xl font-bold text-pale-gold pt-2 pb-2
+        @apply text-center text-xl font-bold text-pale-gold pt-2 pb-2 hover:underline
     }
     .card-img {
         @apply h-48 w-full object-cover
