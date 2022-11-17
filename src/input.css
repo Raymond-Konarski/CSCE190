@@ -7,18 +7,18 @@
         @apply font-semibold text-xs text-blue-400 hover:text-blue-800;
     }
     .card {
-        @apply rounded text-base overflow-hidden shadow-sm text-pale-gold hover:shadow-lg bg-zinc-900 flex flex-col
+        @apply rounded text-base overflow-hidden shadow-sm text-pale-gold hover:shadow-lg bg-zinc-900 flex flex-col;
     }
     .card-link{
-        @apply text-center mt-auto mb-3
+        @apply text-center mt-auto mb-3;
     }
     .card-header {
-        @apply text-center text-xl font-bold text-pale-gold pt-2 pb-2 hover:underline
+        @apply text-center text-xl font-bold text-pale-gold pt-2 pb-2 hover:underline;
     }
     .card-img {
-        @apply h-48 w-full object-cover
+        @apply h-48 w-full object-cover;
     }
     .card-body {
-        @apply px-6 py-4 text-center text-gray-300
+        @apply px-6 py-4 text-center text-gray-300;
     }
   }
