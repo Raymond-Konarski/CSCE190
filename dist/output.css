@@ -582,6 +582,16 @@ video {
   color: rgb(251 191 36 / var(--tw-text-opacity));
 }
 
+.text-pale-gold {
+  --tw-text-opacity: 1;
+  color: rgb(194 169 112 / var(--tw-text-opacity));
+}
+
+.text-yellow-600 {
+  --tw-text-opacity: 1;
+  color: rgb(202 138 4 / var(--tw-text-opacity));
+}
+
 .text-link {
   font-size: 0.75rem;
   line-height: 1rem;
